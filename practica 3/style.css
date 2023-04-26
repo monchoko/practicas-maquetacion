@@ -1,0 +1,86 @@
+body{
+background-color: hsl(227, 100%, 90%);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container-hero {
+text-align: center;
+margin: 5%;
+margin-left: 40%;
+width: 50%;
+position: absolute;
+}
+
+.card-hero > img{
+width: 250px;
+border: none;
+border-radius: 8px 8px 0px 0px;
+}
+
+.card-plan__info{
+width: 250px;
+border: none;
+border-radius: 0px 0px 8px 8px;
+background-color:whitesmoke;
+}
+
+.card-plan__money{
+margin: auto;
+width: 200px;
+height: 50px;
+border: none;
+border-radius: 10px;
+background-color: rgba(229, 234, 251, 0.664);
+}
+
+.card-plan__money > img{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.plan, .p-money, .link-chg{
+    font-size: 9px;
+}
+
+.plan ::after{
+    font-weight: 600;
+    content: "p-money";
+}
+
+.p-money{
+    color: gray;
+}
+
+
+button{
+width: 200px;
+height: 25px;
+margin: 15px;
+padding: 5px;
+background-color:hsl(245, 75%, 52%);
+color:white;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+
+h2{
+padding: 10px;
+font-size: 15px;
+}
+
+.second__info_card{
+margin: 5px;
+padding: 15px;
+text-align: center;
+font-size: 10px;
+}
+
+.cancel__p{
+margin: 2px;
+padding: 5px;
+font-size: small;
+}
+
+
