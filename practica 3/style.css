@@ -1,32 +1,39 @@
 body{
+    box-sizing: border-box;
 background-color: hsl(227, 100%, 90%);
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #container-hero {
-text-align: center;
-margin: 5%;
+display: block;
+margin: 6%;
 margin-left: 40%;
 width: 50%;
-position: absolute;
+position: relative;
 }
 
 .card-hero > img{
+margin: 1px;
 width: 250px;
 border: none;
 border-radius: 8px 8px 0px 0px;
 }
 
 .card-plan__info{
+padding: 3px 0.2px;
+text-align: center;
 width: 250px;
+height: 260px;
 border: none;
 border-radius: 0px 0px 8px 8px;
 background-color:whitesmoke;
 }
 
 .card-plan__money{
+column-count:3;
+column-gap: 8px 8px 8px;
 margin: auto;
-width: 200px;
+width: 215px;
 height: 50px;
 border: none;
 border-radius: 10px;
@@ -34,6 +41,7 @@ background-color: rgba(229, 234, 251, 0.664);
 }
 
 .card-plan__money > img{
+    margin-top: 5px;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -43,9 +51,14 @@ background-color: rgba(229, 234, 251, 0.664);
     font-size: 9px;
 }
 
-.plan ::after{
-    font-weight: 600;
-    content: "p-money";
+.plan{
+    margin:2.5px;
+    font-weight: 500;
+}
+
+
+.link-chg{
+margin: 5px;   
 }
 
 .p-money{
@@ -56,13 +69,18 @@ background-color: rgba(229, 234, 251, 0.664);
 button{
 width: 200px;
 height: 25px;
-margin: 15px;
+margin: 12px;
 padding: 5px;
 background-color:hsl(245, 75%, 52%);
 color:white;
 border: none;
 border-radius: 15px;
 cursor: pointer;
+box-shadow: 0 5px 15px 0 hsla(245, 43%, 66%, 0.719), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover{
+    background-color:hsl(245, 97%, 73%);
 }
 
 h2{
@@ -78,9 +96,9 @@ font-size: 10px;
 }
 
 .cancel__p{
-margin: 2px;
-padding: 5px;
-font-size: small;
+margin: 1px;
+padding: 6px;
+font-size: 10px;
 }
 
 
