@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+font-family: 'Varela Round', sans-serif;
+background-image: url('/practica 4/img/bg-desktop_2.png');
+background-color:hsl(257, 40%, 49%);
+box-sizing: border-box;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.container > .img-mackp{
+    margin: 0px;
+    padding: 5px;
+    flex-grow: 5;
+    text-align: center;
+}
+
+.container > .info_web{
+    margin-left: 50px;
+    margin-right: 60px;
+    flex-grow: 8;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+
+.logo{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width:180px;
+    height: 30px;
+}
+
+.img_web_mckp{
+    margin-left: 40px;
+    width: 520px;
+    height: 350px;
+}
+
+.title_web{
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+    
+}
+
+.sec_info_web{
+    line-height: 1.5;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.Btn-regis{
+    margin-top: 20px;
+    color:hsl(257, 40%, 49%);
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 13px 45px;
+    font-weight: 550;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+}
+
+.Btn-regis:hover{
+    color:hsl(0, 0%, 100%);
+    background-color: hsla(281, 60%, 62%, 0.787);
+}
+
+.btn-fbk, .btn-twt, .btn-inst{
+    float:right;
+    margin-top: 100px;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-fbk:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.btn-twt:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.btn-inst:hover{
+    width: 40px;
+    height: 40px;
+}
+
+
+@media (max-width:700px){
+    .container{
+        flex-direction: column;
+    }
+
+    .img_web_mckp{
+        width: 320px;
+        height: 250px;
+    }
+}
