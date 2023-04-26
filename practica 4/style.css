@@ -46,8 +46,8 @@ box-sizing: border-box;
 .title_web{
     margin-bottom: 15px;
     color: white;
-    font-weight: 400;
     font-size: 40px;
+    font-weight: 400;
     text-align: left;
     
 }
@@ -114,3 +114,26 @@ box-sizing: border-box;
     }
 }
 
+@media screen and (min-width:1440px){
+    .title_web{
+        font-weight: 400;
+        font-size: 66px;
+    }
+
+    .sec_info_web{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .title_web{
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    .sec_info_web{
+        font-size: 10px;
+    }
+    
+}
