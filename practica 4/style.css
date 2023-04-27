@@ -114,7 +114,107 @@ box-sizing: border-box;
     }
 }
 
+@media screen and (max-width:400px){
+
+    .img_web_mckp{
+        margin-left: 20px;
+    width: 250px;
+    height: 180px;
+    }
+
+    .title_web{
+        text-align: left;
+        font-weight: 400;
+        font-size: 23px;
+    }
+
+    .sec_info_web{
+        font-size: 14px;
+        text-align: justify;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+
+    body{
+        background-image: url('/practica 4/img/bg-mobile.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top; 
+    }
+
+    
+    
+}
+
+@media screen and (min-width:600px){
+    .img_web_mckp{
+        margin-left: 20px;
+    width: 380px;
+    height: 280px;
+    }
+    
+
+    .title_web{
+        text-align: left;
+        font-weight: 400;
+        font-size: 35px;
+    }
+
+    .sec_info_web{
+        font-size: 16px;
+        text-align: justify;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    body{
+        background-image: url('/practica 4/img/bg-desktop_2.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top; 
+    }
+}
+
+@media screen and (min-width:1394px){
+    .img_web_mckp{
+        margin-left: 20px;
+    width: 580px;
+    height: 480px;
+    }
+    
+
+    .title_web{
+        text-align: left;
+        font-weight: 400;
+        font-size: 35px;
+    }
+
+    .sec_info_web{
+        font-size: 16px;
+        text-align: justify;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    body{
+        background-image: url('/practica 4/img/bg-desktop_2.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top; 
+    }
+}
+
+
 @media screen and (min-width:1440px){
+    .img_web_mckp{
+        margin-left: 20px;
+    width: 580px;
+    height: 480px;
+    }
+    
+
     .title_web{
         font-weight: 400;
         font-size: 66px;
@@ -123,17 +223,12 @@ box-sizing: border-box;
     .sec_info_web{
         font-size: 25px;
     }
-    
-}
 
-@media screen and (max-width:600px){
-    .title_web{
-        font-weight: 300;
-        font-size: 25px;
-    }
-
-    .sec_info_web{
-        font-size: 10px;
+    body{
+        background-image: url('/practica 4/img/bg-desktop_2.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top; 
     }
     
 }
