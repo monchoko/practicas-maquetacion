@@ -75,16 +75,21 @@ box-sizing: border-box;
 }
 
 .Btn-regis:hover{
+    font-weight: 600;
     color:hsl(0, 0%, 100%);
-    background-color: hsla(281, 60%, 62%, 0.787);
+    background-color: hsla(281, 60%, 62%, 0.164);
+}
+
+.btn-social-m{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .btn-fbk, .btn-twt, .btn-inst{
-    float:right;
-    margin-top: 100px;
+    margin-top: 110px;
     padding: 3px;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 
 .btn-fbk:hover{
@@ -117,7 +122,7 @@ box-sizing: border-box;
 @media screen and (max-width:400px){
 
     .img_web_mckp{
-        margin-left: 20px;
+        margin-left: 7px;
     width: 250px;
     height: 180px;
     }
@@ -135,7 +140,27 @@ box-sizing: border-box;
         margin-right: 5px;
     }
 
+    .btn-fbk, .btn-twt, .btn-inst{
+        margin-top: 110px;
+        padding: 3px;
+        width: 28px;
+        height: 28px;
+    }
 
+    .btn-fbk:hover{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .btn-twt:hover{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .btn-inst:hover{
+        width: 40px;
+        height: 40px;
+    }
 
     body{
         background-image: url('/practica 4/img/bg-mobile.png');
@@ -169,6 +194,28 @@ box-sizing: border-box;
         margin-right: 5px;
     }
 
+    .btn-fbk, .btn-twt, .btn-inst{
+        margin-top: 110px;
+        padding: 3px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .btn-fbk:hover{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .btn-twt:hover{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .btn-inst:hover{
+        width: 45px;
+        height: 45px;
+    }
+
     body{
         background-image: url('/practica 4/img/bg-desktop_2.png');
         background-repeat: no-repeat;
@@ -192,10 +239,32 @@ box-sizing: border-box;
     }
 
     .sec_info_web{
-        font-size: 16px;
+        font-size: 18px;
         text-align: justify;
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    .btn-fbk, .btn-twt, .btn-inst{
+        margin-top: 110px;
+        padding: 3px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .btn-fbk:hover{
+        width: 55px;
+        height: 55px;
+    }
+    
+    .btn-twt:hover{
+        width: 55px;
+        height: 55px;
+    }
+    
+    .btn-inst:hover{
+        width: 55px;
+        height: 55px;
     }
 
     body{
@@ -210,7 +279,7 @@ box-sizing: border-box;
 @media screen and (min-width:1440px){
     .img_web_mckp{
         margin-left: 20px;
-    width: 580px;
+    width: 680px;
     height: 480px;
     }
     
@@ -223,6 +292,29 @@ box-sizing: border-box;
     .sec_info_web{
         font-size: 25px;
     }
+
+    .btn-fbk, .btn-twt, .btn-inst{
+        margin-top: 110px;
+        padding: 3px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn-fbk:hover{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .btn-twt:hover{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .btn-inst:hover{
+        width: 60px;
+        height: 60px;
+    }
+
 
     body{
         background-image: url('/practica 4/img/bg-desktop_2.png');
